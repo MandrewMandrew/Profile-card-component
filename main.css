@@ -2,7 +2,9 @@ body{
     margin: 0;
     padding: 0;
     background-color:hsl(185, 75%, 39%);
-    height: 100vh;
+    height: 900px;
+    width: 1440px;
+    overflow: hidden;
 }
 
 .card{
@@ -102,8 +104,16 @@ td, th {
 }
 
 .circle2{
-    position:absolute;
+    position: absolute;
     bottom: -450px;
     right: -150px;
+}
+
+footer{
+    position: absolute;
+    top: 400px;
+    text-align: center;
+    height: 50px;
+
 }
 
